@@ -29,6 +29,7 @@ Creating visualizations to understand better the data for the features selected 
 # Modelling
 * Dummy Classifier
 * Decision Tree
+
 Dummy classifier was used as the baseline model to make predictions based on the causes of crash in the city of Chicago. In order to evaluate this model, decision tree was used nd the two nearly gave the same accuracy, meaning none of them was perfect over the other.
 
 # Evaluation
