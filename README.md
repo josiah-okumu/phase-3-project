@@ -32,10 +32,6 @@ Creating visualizations to understand better the data for the features selected 
 
 Dummy classifier was used as the baseline model to make predictions based on the causes of crash in the city of Chicago. In order to evaluate this model, decision tree was used nd the two nearly gave the same accuracy, meaning none of them was perfect over the other.
 
-# Evaluation
-
-
-
 # Conclusion
 
 Since both the baseline model and the decision tree compared have nearly the same accuracy/best score values, means that the decision tree is not providing any better results, hence not an improvement to the previous baseline predictive model. Further, looking at the complexity of the decision tree model and its interpretation since it has got many stems. this makes the decision tree not to be a choice of the improvement model over the previous baseline model as it tends to be more heavily loaded in terms of data and interpretation as the baseline model.
