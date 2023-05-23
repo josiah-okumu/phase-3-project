@@ -6,6 +6,10 @@ My client is the Vehicle Safety Board, interested in reducing the accident cases
 My client, Vehicle Safety Board wants to know hoe they can identify and reduce crashes that happens within the city. This will inform their cause of action based on the outcome of the major causes of accidents and how fatal they are. The board seeks to know to prevent the fatal crashes on the roads, so that it does a recommendation to the government on ways of reducing the crashes that happens within the city of Chicago.
 
 My stakeholder, the Vehicle Safety Board is set to launch campaign that is aimed at reducing car crashes along the roads. The task in this case is to build a classification model to identify the major causes of car crashes and how to prevent the fatalities of these crashes when they happen, group them as preventable or non-preventable, based on the monetary implication involved in abating the cause of the crash.
+# Objectives
+
+* To provide inferential statistics and visualisations based on this data.
+* To build a classification predictive and supervised learning models from the data to predict causes of crash and how to prevent crashes on the roads
 
 # Database
 The dataset that was used for these purpose a realtime data that is recorded and released by the different police departments within the city of Chicago. I used three datasets;Traffic Crashes- Crashes, Traffic Crashes-People and Traffic Crashes-Vehicle, whose sources are as follows:
@@ -17,12 +21,14 @@ Vehicle: https://data.cityofchicago.org/Transportation/Traffic-Crashes-Vehicles/
 People: https://data.cityofchicago.org/Transportation/Traffic-Crashes-People/u6pd-qa9d
 
 # Exploratory Data Analysis
-Creating visualizations to understand better the data;
+Creating visualizations to understand better the data for the features selected for analysis;
 
 ![image](https://github.com/josiah-okumu/phase-3-project/assets/125944738/438f7475-caf3-4d9a-96ed-a6f2fb09b15e)
 
 
 # Modelling
+* Dummy Classifier
+* Decision Tree
 Dummy classifier was used as the baseline model to make predictions based on the causes of crash in the city of Chicago. In order to evaluate this model, decision tree was used nd the two nearly gave the same accuracy, meaning none of them was perfect over the other.
 
 # Evaluation
